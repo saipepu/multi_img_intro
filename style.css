@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12vw;
+  font-family: "Reveal";
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  /* display: none; */
+}
+
+.header .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0f0f;
+}
+
+.images {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 140px;
+  height: 180px;
+  background: darkblue;
+  filter: grayscale(1);
+  opacity: 0.6; 
+}
+
+.img-1 {
+  transform: scale(1);
+  background: url(image-one.jpg) 50% 50% no-repeat;
+  background-size: cover
+}
+.img-2 {
+  transform: scale(1.1);
+  background: url(image-two.jpg) 50% 50% no-repeat;
+  background-size: cover
+}
+.img-3 {
+  transform: scale(1);
+  background: url(image-three.jpg) 50% 50% no-repeat;
+  background-size: cover
+}
+.img-4 {
+  transform: scale(1.3);
+  background: url(image-four.jpg) 50% 50% no-repeat;
+  background-size: cover
+}
+.img-5 {
+  transform: scale(1.1);
+  background: url(image-five.jpg) 50% 50% no-repeat;
+  background-size: cover
+}
+.img-6 {
+  transform: scale(1);
+  background: url(image-six.jpg) 50% 50% no-repeat;
+  background-size: cover
+}
+.img-7 {
+  transform: scale(1.2);
+  background: url(image-seven.jpg) 50% 50% no-repeat;
+  background-size: cover
+}
+.letter0 {
+  color: red;
+}
+.navbar {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-family: "Neue Montreal", Arial, Helvetica, sans-serif !important;
+  text-transform: uppercase
+}
